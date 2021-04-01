@@ -1,5 +1,0 @@
-run this thing >Procfile
-
-Procfile should be a text file
-
-worker: python bot.py
