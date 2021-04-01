@@ -1,0 +1,4 @@
+dyscord.py
+aiohttp
+websockets
+chardet
