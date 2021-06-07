@@ -1,4 +1,5 @@
 import discord
+import os
 from discord import utils
 
 class MyClient(discord.Client):
@@ -51,4 +52,7 @@ class MyClient(discord.Client):
 
 # RUN
 client = MyClient()
-client.run(TOKEN)
+
+token = os.environ.get('TOKEN')
+
+bot.run(str(token))
